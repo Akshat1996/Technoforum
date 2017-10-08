@@ -1,0 +1,139 @@
+#image-detail{
+  float:left;
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  width: 280px;
+  height:280px;
+  text-align: center;
+
+}
+
+#profile-detail{
+  float:right;
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  width:500px;
+  height:420px;
+  padding: 45px;
+  text-align: center;
+
+}
+
+#show-detail{
+	font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-top: 5px solid gray;
+}
+
+#profile-container{
+  position: relative;
+  z-index: 1;
+  width:900px;
+  height:485px;
+  background: #FFFFFF;
+  margin-top:50px;
+  margin-left:50px;
+  padding: 45px;
+  float:left;
+  text-align: center;
+
+}
+
+
+#image-detail img{  
+  width: 280px;
+  height:280px;
+
+}
+
+
+#work-container{
+  position: relative;
+  z-index: 1;
+  width:300px;
+  height:485px;
+  background: #FFFFFF;
+  margin-top:50px;
+  margin-left:50px;
+  padding: 45px;
+  float:left;
+  text-align: center;
+
+}
+#login_button{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-image: url(images/full_1.jpg);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+/* Customer  page css here*/
+
+#food-heading {
+  
+  width:1350px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:15px;
+  float:left;
+  text-align:center;
+  background-color:black;
+}
+
+#food-heading h2{
+
+  color:white;
+}
+
+#food-heading #food-block{
+  width:1250px;
+  height:230px;
+  margin-top:10px;
+  margin-right:30px;
+  margin-left:30px;
+  margin-bottom:10px;
+  padding:15px;
+  float:left;
+  text-align:center;
+  background:white;
+  box-shadow: 3px 3px 3px 3px rgba(255,255,255,255);
+}
+
+#food-heading #food-block #food-image{
+  width:200px;
+  height:195px;
+  float:left;
+  text-align:center;
+  
+ }
+
+#food-heading #food-block #food-content{
+  width:970px;
+  height:180px;
+  padding-left:45px;
+  float:left;
+  text-align:center;
+  background:white;
+}
+
+
+.table td{
+  width: 250px;
+  height:10px;   
+  border:0;
+}
